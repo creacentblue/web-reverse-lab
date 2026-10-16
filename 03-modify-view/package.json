@@ -1,0 +1,7 @@
+{
+  "name": "quotes-enhancer-test",
+  "private": true,
+  "type": "module",
+  "scripts": { "test": "node test_userscript.mjs" },
+  "devDependencies": { "jsdom": "^30.1.3" }
+}

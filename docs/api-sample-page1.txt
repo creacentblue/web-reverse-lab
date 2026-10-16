@@ -1,0 +1,30 @@
+{
+    "has_next": true,
+    "page": 1,
+    "quotes": [
+        {
+            "author": {
+                "goodreads_link": "/author/show/9810.Albert_Einstein",
+                "name": "Albert Einstein",
+                "slug": "Albert-Einstein"
+            },
+            "tags": [
+                "change",
+                "deep-thoughts",
+                "thinking",
+                "world"
+            ],
+            "text": "\u201cThe world as we have created it is a process of our thinking. It cannot be changed without changing our thinking.\u201d"
+        },
+        {
+            "author": {
+                "goodreads_link": "/author/show/1077326.J_K_Rowling",
+                "name": "J.K. Rowling",
+                "slug": "J-K-Rowling"
+            },
+            "tags": [
+                "abilities",
+                "choices"
+            ],
+            "text": "\u201cIt is our choices, Harry, that show what we truly are, far more than our abilities.\u201d"
+        },

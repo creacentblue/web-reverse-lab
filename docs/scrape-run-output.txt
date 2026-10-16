@@ -1,0 +1,11 @@
+page 1: +10 (total 10)
+page 2: +10 (total 20)
+page 3: +10 (total 30)
+page 4: +10 (total 40)
+page 5: +10 (total 50)
+page 6: +10 (total 60)
+page 7: +10 (total 70)
+page 8: +10 (total 80)
+page 9: +10 (total 90)
+page 10: +10 (total 100)
+done: 100 quotes, 50 authors

@@ -1,0 +1,11 @@
+$ curl -s http://127.0.0.1:8765/ | grep -c quote
+9
+$ curl -s -o /dev/null -w "%{http_code} %{size_download}\n" http://127.0.0.1:8765/static/main.css
+200 1368
+$ curl 'http://127.0.0.1:8765/api/quotes?page=1' (summary)
+page 1 quotes 10 has_next True Albert Einstein
+$ curl 'http://127.0.0.1:8765/api/quotes?page=10' (summary)
+page 10 quotes 10 has_next False J.K. Rowling
+$ curl 'http://127.0.0.1:8765/api/quotes?page=11' (summary)
+page 11 quotes 0 has_next False 
+rendered .quote divs in headless Chrome (clone, offline API): 10

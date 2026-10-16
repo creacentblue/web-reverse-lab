@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Quotes Enhancer (web-reverse-lab)",
+  "version": "1.0.0",
+  "description": "Hide a tag, highlight an author, add copy button + word count on quotes.toscrape.com",
+  "content_scripts": [
+    {
+      "matches": ["https://quotes.toscrape.com/*", "http://127.0.0.1:8000/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}

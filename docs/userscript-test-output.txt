@@ -1,0 +1,13 @@
+$ node --check quotes-enhancer.user.js; python3 -m json.tool chrome-extension/manifest.json
+SYNTAX_OK
+$ node test_userscript.mjs
+{
+  quotes: 10,
+  hidden: 1,
+  highlighted: 3,
+  copyButtons: 9,
+  banner: 'Quotes Enhancer: hidden 1 quote(s) tagged "love", highlighting Albert Einstein',
+  firstWordCount: 'Copy quote 21 words'
+}
+$ npx eslint quotes-enhancer.user.js (eslint 9 recommended, browser globals)
+eslint: 0 problems
